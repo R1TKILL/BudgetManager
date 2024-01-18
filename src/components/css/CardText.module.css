@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    margin: 2.5em;
+    margin-bottom: 2em;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    height: max-content;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #ffbb33;
+    border-right: 20px solid #ffbb33;
+}
+
+.card_img img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+/*Mecanismo para abrir e fechar o card.*/
+.card_content{
+    height: 150px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.expanded{
+    height: auto;
+}
+
+.expanded::before{
+    visibility: hidden;
+}
+/***************************************/
+
+.card_content::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f)
+}
+
+.card_content h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+.card_content h3::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background-color: #ffbb33;
+    bottom: 0;
+    border-radius: 100px;
+}
+
+.card_content p{
+    color: #ffbb33;
+}
+
+.card button{
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: #ffbb33;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card button:hover{
+    border: 2px solid #ffbb33;
+    background-color: transparent;
+    color: #ffbb33;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+

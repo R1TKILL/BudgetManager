@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "name": "Subir projeto para nuvem e comprar servidor",
+      "budget": "30000",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Desenvolvimento de um sistema de shopping em JAVA",
+      "budget": "63500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 10000,
+      "services": [
+        {
+          "name": "Contratar programador java/React.",
+          "costs": "10000",
+          "description": "Responsavel pela construção do sistema em Java e React.",
+          "id": "4ed57ad3-a0e9-4938-9bbf-3729e33012ed"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Consulta de segunda-feira",
+      "budget": "500",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    },
+    {
+      "id": 5,
+      "name": "Outros"
+    }
+  ]
+}

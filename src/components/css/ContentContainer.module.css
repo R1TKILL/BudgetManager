@@ -1,0 +1,27 @@
+/*
+ *space-between: espaça de forma igualitaria os elementos
+ *0 auto: centraliza.
+ *wrap: para que os elemento desta classe ao utrapassarem os 1200px irem para baixo.
+ */
+.container_content{
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/*classes helper: serão minhas classes que serão chamadas quando necessaárias.*/
+.min-height{
+    min-height: 80%;
+}
+
+/*começar do inicio.*/
+.start{
+    justify-content: flex-start;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}

@@ -1,0 +1,6 @@
+/*Reset*/
+/*O box-sizing Serve para os elementos não utrapassarem a div em que estão.*/
+*{border: none; margin: 0; padding: 0; box-sizing: border-box; font-family: 'Open Sans';}
+
+html, body, #root{background-color: #EFEFEF; height: 100%;}
+

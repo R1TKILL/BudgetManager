@@ -1,0 +1,105 @@
+.BigText{
+    width: 470px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 12em;
+    position: relative;
+    left: 350px;
+    top: 60px;
+}
+
+.BigText h1{
+    margin-bottom: 2em;
+}
+
+.baseForm{
+    display: flex; 
+    flex-direction: row;
+    position: relative;
+    height: 280px;
+    width: 1200px;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+.infoText{
+    background-color: #ffbb33;
+    width: 30%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.infoText h5{
+    position: relative;
+    top: 90px;
+    left: 15%;
+    margin-bottom: 0.5em;
+    text-align: justify;
+}
+
+.FormContact{
+    background-color: #3f3f3f;
+    width: 70%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.FormContact input{
+    position: relative;
+    margin-right: 2em;
+    width: 350px;
+    background-color: #2e2c2c;
+    color: #ffbb33;
+    outline: 0;
+}
+
+.FormContact input::before{
+    
+}
+
+.inputField{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 7%;
+    top: 8%;
+}
+
+.longInputField input{
+    position: relative;
+    width: 726px !important;
+    left: 7%;
+    top: 18px !important;
+    height: 120px !important;
+}
+
+input::placeholder{
+    color: #ffbb33 !important;
+}
+
+.btnForm{
+    position: relative;
+    left: 70%;
+}
+
+.btnForm button{
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: #ffbb33;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnForm button:hover{
+    border: 2px solid #ffbb33;
+    background-color: transparent;
+    color: #ffbb33;
+    transition: all 0.3s ease-in-out;
+}
+
+

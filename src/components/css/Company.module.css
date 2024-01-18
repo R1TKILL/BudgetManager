@@ -1,0 +1,33 @@
+.company_content{
+    padding: 2em;
+    width: 100%;
+}
+
+.title_content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.title_content h1 span{
+    color: #ffbb33;
+    padding: 0 .2em;
+    background-color: #222;
+}
+
+.text_content{
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+}
+
+.text_content span{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.franchises_content{
+    margin-bottom: 2em;
+}
+

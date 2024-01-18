@@ -1,0 +1,10 @@
+    Com json-server irei utlizar o arquivo db.json para simular uma API/Banco de Dados, porem
+eu preciso criar um script para roda-lo como backend, assim no arquivo (package.json) na parte
+de debug, atualmente na linha 20, insira esta linha:
+
+    "backend": "json-server --watch db.json --port 5000",
+
+   Assim, estamos dizendo o arquivo que deve ser monitorado e a porta que escolher, o segundo passo
+é abrir outra aba do terminal e realizar o seguinte comando:
+
+    npm run backend
