@@ -11,12 +11,12 @@ Como descrito acima, este projeto se propõe a ser um gerenciador de tarefas, aq
 
 ## 🔧 `Tecnologias utilizadas`
 
-- [React]() **v18.2.0**
-- [React-dom]() **v18.2.0**
-- [React-icons]() **v4.10.1**
-- [React-router-dom]() **v6.14.2**
-- [uuid]() **v9.0.0**
-- [Json-server]() **v0.17.3**
+- [React](https://www.alura.com.br/artigos/react-js) **v18.2.0**
+- [React-dom](https://pt-br.legacy.reactjs.org/docs/react-dom.html) **v18.2.0**
+- [React-icons](https://blog.betrybe.com/react/react-icons/) **v4.10.1**
+- [React-router-dom](https://www.treinaweb.com.br/blog/gerenciamento-de-rotas-no-react-com-react-router#:~:text=O%20React%20Router%20%C3%A9%20uma%20excelente%20op%C3%A7%C3%A3o%20para%20gerenciamento%20de,de%20forma%20simples%20e%20intuitiva.) **v6.14.2**
+- [uuid](https://blog.ramongomes.com.br/tudo-sobre-uuid-node-js/#:~:text=UUID%20vers%C3%A3o%204%20(v4)%3A,n%C3%ADvel%20de%20namespace%20e%20nome.) **v9.0.0**
+- [Json-server](https://blog.rocketseat.com.br/criando-uma-api-falsa-com-json-server/#:~:text=O%20JSON%2DServer%20%C3%A9%20simples,de%20teste%20de%20suas%20aplica%C3%A7%C3%B5es.) **v0.17.3**
 
 ## 🏁 `Como iniciar o projeto`
 
